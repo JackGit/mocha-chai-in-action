@@ -1,12 +1,10 @@
-import * as API from 'api/moment.js';
-import {assert, expect, should} from 'chai';
+import * as API from '../../../src/api/moment.js';
+import {expect} from 'chai';
 
-describe('moment api test', () => {
-  it('', () => {
+describe('api.moment.getMomentList()', function () {
+  it('should response without error');
 
-  });
-
-  it('', () => {
-
+  it('should have length 3', function () {
+    expect('1234').to.have.length(4);
   });
 });
